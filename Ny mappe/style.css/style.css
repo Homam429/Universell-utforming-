@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    padding: 30px;
+    background-color: #E8D5A3;
+    color: #451A3A;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+.del {
+    padding: 40px;
+    min-height: 500px;
+}
+
+.del h2 {
+    max-width: 900px;
+}
+
+.del p {
+    max-width: 800px;
+    font-size: 18px;
+}
+
+.del img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 25px;
+}
+
+
+/* Del 1: rosa bakgrunn og mørk rød/lilla tekst */
+.del-1 {
+    background-color: #FFD6E7;
+    color: #5A1030;
+}
+
+
+/* Del 2: sterk grønn bakgrunn og lilla tekst */
+.del-2 {
+    background-color: #C7F000;
+    color: #3B145F;
+}
+
+
+/* Del 3: turkis bakgrunn og mørk burgunder tekst */
+.del-3 {
+    background-color: #64E6E0;
+    color: #5B1638;
+}
+
+
+footer {
+    padding: 25px;
+    background-color: #D8B4F0;
+    color: #40134F;
+}
