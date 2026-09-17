@@ -6,7 +6,11 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    font-size: 20px;
 }
+
+
+/* Header */
 
 header {
     padding: 30px;
@@ -16,7 +20,16 @@ header {
 
 header h1 {
     margin-top: 0;
+    font-size: 40px;
 }
+
+header p {
+    font-size: 22px;
+    max-width: 900px;
+}
+
+
+/* Alle tre delene */
 
 .del {
     padding: 40px;
@@ -25,12 +38,16 @@ header h1 {
 
 .del h2 {
     max-width: 900px;
+    font-size: 30px;
 }
 
 .del p {
     max-width: 800px;
-    font-size: 18px;
+    font-size: 24px;
 }
+
+
+/* Bilder */
 
 .del img {
     display: block;
@@ -41,29 +58,35 @@ header h1 {
 }
 
 
-/* Del 1: rosa bakgrunn og mørk rød/lilla tekst */
+/* Del 1: rosa bakgrunn */
+
 .del-1 {
     background-color: #FFD6E7;
     color: #5A1030;
 }
 
 
-/* Del 2: sterk grønn bakgrunn og lilla tekst */
+/* Del 2: grønn bakgrunn */
+
 .del-2 {
     background-color: #C7F000;
     color: #3B145F;
 }
 
 
-/* Del 3: turkis bakgrunn og mørk burgunder tekst */
+/* Del 3: turkis bakgrunn */
+
 .del-3 {
     background-color: #64E6E0;
     color: #5B1638;
 }
 
 
+/* Footer */
+
 footer {
     padding: 25px;
     background-color: #D8B4F0;
     color: #40134F;
+    font-size: 18px;
 }
